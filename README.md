@@ -16,3 +16,8 @@ This repository demonstrates a production-oriented Playwright + TypeScript test 
 ```bash
 git clone git@github.com:<your-org>/playwright-typescript-portfolio.git
 cd playwright-typescript-portfolio
+npm ci
+npx playwright install --with-deps
+npm test
+npm run test:headed
+npm run test:report
